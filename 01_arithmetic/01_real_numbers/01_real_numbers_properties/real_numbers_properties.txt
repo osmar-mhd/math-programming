@@ -1,0 +1,52 @@
+Function closure_addition(a, b):
+    Return a + b
+
+Function closure_multiplication(a, b):
+    Return a * b
+
+Function commutative_addition(a, b):
+    Return (a + b) is equal to (b + a)
+
+Function commutative_multiplication(a, b):
+    Return (a * b) is equal to (b * a)
+
+Function associative_addition(a, b, c):
+    Return (a + (b + c)) is equal to ((a + b) + c)
+
+Function associative_multiplication(a, b, c):
+    Return (a * (b * c)) is equal to ((a * b) * c)
+
+Function additive_identity(a):
+    Return (a + 0) is equal to a
+
+Function multiplicative_identity(a):
+    Return (a * 1) is equal to a
+
+Function additive_inverse(a):
+    Return (a + (-a)) is equal to 0
+
+Function multiplicative_inverse(a):
+    If a is not equal to 0:
+        Return (a * (1 / a)) is equal to 1
+    Else:
+        Return False
+
+Function distributive_property(a, b, c):
+    Return (a * (b + c)) is equal to ((a * b) + (a * c))
+
+Print "Closure Addition: " followed by closure_addition(3, 5)
+Print "Closure Multiplication: " followed by closure_multiplication(2, -3)
+
+Print "Commutative Addition: " followed by result of commutative_addition(2, 3)
+Print "Commutative Multiplication: " followed by result of commutative_multiplication(2, 3)
+
+Print "Associative Addition: " followed by result of associative_addition(5, 3, 4)
+Print "Associative Multiplication: " followed by result of associative_multiplication(3, 2, 5)
+
+Print "Additive Identity: " followed by result of additive_identity(5)
+Print "Multiplicative Identity: " followed by result of multiplicative_identity(7)
+
+Print "Additive Inverse: " followed by result of additive_inverse(2)
+Print "Multiplicative Inverse: " followed by result of multiplicative_inverse(5)
+
+Print "Distributive Property: " followed by result of distributive_property(2, 7, 3)
